@@ -64,7 +64,13 @@
   <img width="1382" height="974" alt="Tree" src="https://github.com/user-attachments/assets/00b77feb-340d-436e-a5fc-28987cff95af" />
 
         
-        5. 编译出现问题之后可以先手动清楚刚刚编译出来的install和build和log文件，在重新编译以免出现不必要的冲突，使用rm -rf /build/install/log/
+### ~ 5. 编译出现问题之后可以先手动清楚刚刚编译出来的install和build和log文件，在重新编译以免出现不必要的冲突，使用rm -rf /build/install/log/
+### ~ 6. Launch 文件与 Setup 文件的协作关系
+        你先执行 source install/setup.bash，让终端找到你的功能包。
+
+        你执行 ros2 launch，系统根据 Launch 文件的指令，去对应的包里调用可执行程序。
+
+        Launch 文件将所有的配置参数打包送入 参数服务器（Parameter Server），供各个节点读取。
         
         
         
