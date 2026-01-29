@@ -28,7 +28,7 @@
 
 `step8: ros2 launch robot_simulation autonomous_navigation.launch.py`小车导航系统就绪
 
-'step9: ros2 run robot_patrol robot_patrol`小车开始寻址跑图
+`step9: ros2 run robot_patrol robot_patrol`小车开始寻址跑图
 
 
 
