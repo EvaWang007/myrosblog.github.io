@@ -59,17 +59,6 @@ ${workspaceFolder}/**
 /opt/ros/${env:ROS_DISTRO}/include/**
 ```
 
-
-
-
-
-
-
-
-
-
-
-
 # 调用aStar算法的机器人包robot_simulation
 ## 文件结构
 
@@ -128,6 +117,8 @@ C. 启动多个相似的节点时
 运行阶段：节点内部通过 get_parameter() 获取到你的配置，从而成功加载了插件。
 
 ```
+
+# 
 
 
 
